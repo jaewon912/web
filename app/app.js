@@ -18,4 +18,3 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/", home);
 
 module.exports = app;
-
