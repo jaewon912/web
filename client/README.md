@@ -1,3 +1,6 @@
+## Client Management System
+공부를 위한 React로 만든 고객 관리 시스템(Client Management System)입니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

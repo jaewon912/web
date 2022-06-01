@@ -1,38 +1,52 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Single+Day&family=Tiro+Gurmukhi&display=swap');
+
+
+.gray-background {
+  background: darkgray;
+}
+.header-right {
+  font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: right;
+  margin-right: 10%;
+}
+.header-right li {
+  display:inline-block;
+  margin: 5px;
+}
+.header-right li a:link {
+  text-decoration: none;
+  color: black;
+}
+.hearder-logo {
+  font-family: 'Single Day', cursive;
+  font-size: 70px;
   text-align: center;
+  font-weight: bolder;
+  margin-top: 30px;
+  line-height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-desc {
+  font-family: 'Tiro Gurmukhi', serif;
+  font-size: 11px;
+  font-weight: lighter;
+  line-height: 20px;
+  color: rgb(150, 150, 150);
+  letter-spacing: 2px;
+  margin-bottom: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#Header {
+  font-family: 'Noto Sans KR', sans-serif;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#Header .Header-home {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 1%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Header .Header-drop {
+  font-size: 20px;
+}
+.my-2{
+  font-size: 20px;
 }
